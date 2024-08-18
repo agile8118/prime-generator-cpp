@@ -1,7 +1,9 @@
+#include <chrono>
 #include "prime-generator.h"
 
 
 int main() {
+
   auto start = std::chrono::high_resolution_clock::now();
 
   // Generate 400 primes starting from 100000000000000 using 2 threads. Format the numbers, and don't log as they get generated.

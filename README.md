@@ -49,11 +49,11 @@ This script will:
 
 ## Notes
 
-Ensure that your machine is properly setup for C++ development. The `gmp.sh` script takes care of GMP, but you need to have other tools like CMake and Make installed as well.
+Ensure that your machine is properly setup for C++ development. The `gmp.sh` script takes care of GMP, but you need to have other tools like CMake and Make installed as well. Running `sudo apt install m4 cmake autoconf automake libtool` on Linux should get all these tools installed.
 
 ##### Unable to Build & Link GMP
 
-On Linux, the `./run.sh` file may not be able to properly setup the library. If that's the case, install GMP like this:
+On Linux, the `./gmp.sh` file may not be able to properly setup the library. If that's the case, install GMP like this:
 
 ```
 sudo apt install libgmp-dev
