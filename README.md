@@ -1,7 +1,7 @@
-# Prime Generator Project
+# Prime Generator CPP
 
 A prime generation application written in C++ featured in the Multi-Threading section of the [Understanding Node.js: Core Concepts](https://www.udemy.com/course/understanding-nodejs-core-concepts/?referralCode=0BC21AC4DD6958AE6A95) course.
-This code is then used in [this](https://github.com/agile8118/heavy-server-client) Node.js project as a native addon. The reason for doing this is to gain a significant performance boost in our Node.js application, and also to see Node.js Addons and native multi-threading in Node.js in action.
+This code is then used in [this](https://github.com/agile8118/node-cpu-intensive) Node.js project as a native addon. The reason for doing this is to gain a significant performance boost in our Node.js application, and also to see Node.js Addons and native multi-threading in Node.js in action.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ To get the project up and running after cloning the repository, follow these ste
 
 ### 1. Download and Compile GMP
 
-Run the following script to download and compile the GMP library:
+GMP is used to be able to generate arbitrarily large prime numbers. Run the following script to download and compile the GMP library:
 
 ```sh
 ./gmp.sh
